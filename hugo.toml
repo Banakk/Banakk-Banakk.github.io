@@ -1,0 +1,141 @@
+baseURL = '/'
+languageCode = 'en'
+title = '/Banak.re'
+enableEmoji = true
+theme = 'FixIt'
+
+[params]
+  [params.home.profile]
+    enable = true
+    showAllPosts = false
+    authorAvatar = false
+    avatarURL = "/images/Fond.png"
+    avatarLinkURL = "/content/about"
+    title = "Banak"
+    subtitle = "A student who likes to learn :)"
+
+  [params.social]
+    weight = 200
+    GitHub = "Banakk"
+    Linkedin = "nathanaelchansard"
+    HackTheBox = "1340293"
+    RootMe = "Banak"
+    rss = false
+
+[params.footer]
+    enable = false
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  collection = "collections"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "Automatisation"
+    parent = ""
+    name = "Automatisation"
+    url = "/Automatisation/"
+    weight = 1
+    [menu.main.params]
+      icon = "fa-solid fa-flag"
+
+   [[menu.main]]
+    identifier = "B"
+    parent = "Automatisation"
+    name = "B"
+    url = "/B/"
+    weight = 3
+    [menu.main.params]
+      icon = "fa-solid fa-cube"
+
+   [[menu.main]]
+    identifier = "C"
+    parent = "Automatisation"
+    name = "C"
+    url = "/C/"
+    weight = 3
+    [menu.main.params]
+      icon = "fa-solid fa-cube"
+
+
+
+  [[menu.main]]
+    identifier = "Optimisation"
+    parent = ""
+    name = "Optimisation"
+    url = "/Optimisation/"
+    weight = 2
+    [menu.main.params]
+      icon = "fa-solid fa-spider"
+   
+   [[menu.main]]
+    identifier = "E"
+    parent = "Optimisation"
+    name = "E"
+    url = "/E"
+
+    weight = 2
+    [menu.main.params]
+      icon = "fa-solid fa-clipboard-list"
+  
+
+
+   [[menu.main]]
+    identifier = "Sécurité"
+    name = "Sécurité"
+    url = "/Sécurité/"
+    weight = 3
+    [menu.main.params]
+      icon = "fa-solid fa-key"
+
+   [[menu.main]]
+    identifier = "Docker"
+    name = "Docker"
+    parent = "Sécurité"
+    url = "/docker"
+    title = ""
+    weight = 3
+    [menu.main.params]
+      icon = "fa-brands fa-docker"
+
+   [[menu.main]]
+    identifier = "Kubernetes"
+    name = "Kubernetes"
+    parent = "Sécurité"
+    url = "/kubernetes"
+    title = ""
+    weight = 3
+    [menu.main.params]
+      icon = "fa-solid fa-ship"
+
+   [[menu.main]]
+    identifier = "Linux2"
+    name = "Linux"
+    parent = "Sécurité"
+    url = "/linux2"
+    title = ""
+    weight = 2
+    [menu.main.params]
+      icon = "fa-brands fa-linux"
+
+[[menu.main]]
+    identifier = "AppArmor"
+    name = "AppArmor"
+    parent = "Sécurité"
+    url = "/apparmor"
+    title = ""
+    weight = 1
+    [menu.main.params]
+      icon = "fa-solid fa-shield-halved"
+
+[[menu.main]]
+    identifier = "Retex"
+    name = "Retex"
+    parent = ""
+    url = "/retex/"
+    weight = 4
+    [menu.main.params]
+      icon = "fa-solid fa-shield-halved"
+
