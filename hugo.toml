@@ -26,7 +26,7 @@ theme = 'FixIt'
     enable = false
 
 [taxonomies]
-  category = "categories"
+  category = "categoriees"
   tag = "tags"
   collection = "collections"
 
