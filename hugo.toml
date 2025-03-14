@@ -121,7 +121,7 @@ theme = 'FixIt'
       icon = "fa-brands fa-linux"
 
 [[menu.main]]
-    identifier = "AppArmor"
+    identifier = "AppAarmor"
     name = "AppArmor"
     parent = "Sécurité"
     url = "/apparmor"
